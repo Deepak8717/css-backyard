@@ -1,9 +1,10 @@
-import Navbar from "./Navbar";
+import Main from "./layout/Main";
+import Navbar from "./layout/Navbar";
 function App() {
   return (
-    <div className="max-w-[1296px] w-[100%] h-96 mx-auto">
+    <Main>
       <Navbar />
-    </div>
+    </Main>
   );
 }
 
