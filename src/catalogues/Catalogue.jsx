@@ -8,7 +8,7 @@ const Catalogue = () => {
     <Main>
       <Navbar />
 
-      <div className="my-24">
+      <div className="my-48">
         <h3 className="text-3xl text-center">Explore Catalogs</h3>
         <div className="fluid-grid my-12 mx-auto justify-center cursor-pointer ">
           <Link to="/catalog/flex">
