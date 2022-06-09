@@ -17,7 +17,7 @@ const Introduction = () => {
   return (
     <Main>
       <Navbar />
-      <div className="w-[100%] my-12 md:mt-24 z-[-1]  flex flex-col md:flex-row shadow-lg">
+      <div className="w-[100%] my-12 md:mt-12 z-[-1]  flex flex-col md:flex-row shadow-lg">
         <div className="md:w-[50%]  bg-white p-8 rounded-b md:rounded-l">
           <h2 className="text-xl tracking-wide  mt-2 py-2 ">
             To start using the Flexbox model, you need to first define a flex
@@ -58,31 +58,31 @@ const Introduction = () => {
         </div>
 
         <div className="md:w-[50%]  bg-stone-800 p-4 text-white rounded-t md:rounded-r flex justify-center items-center ">
-          <motion.div
-            className={`w-[90%] mx-auto  p-12 m-12 border-2 items-center border-white ${display}`}
+          <div
+            className={`w-[90%] mx-auto h-[30vh] p-12 m-12 border-2 items-center border-red-700 ${display}`}
           >
             <motion.div
               layout
               transition={spring}
-              className="w-12 h-12 border-2 border-white m-2 flex justify-center items-center mx-auto bg-white text-black font-semibold"
+              className="w-12 h-12  m-2 flex justify-center items-center mx-auto  bg-red-700 text-white font-semibold"
             >
               1
             </motion.div>
             <motion.div
               layout
               transition={spring}
-              className="w-12 h-12 border-2 border-white m-2 flex justify-center items-center mx-auto bg-white text-black font-semibold"
+              className="w-12 h-12  m-2 flex justify-center items-center mx-auto bg-red-700 text-white font-semibold"
             >
               2
             </motion.div>
             <motion.div
               layout
               transition={spring}
-              className="w-12 h-12 border-2 border-white m-2 flex justify-center items-center mx-auto bg-white text-black font-semibold"
+              className="w-12 h-12  m-2 flex justify-center items-center mx-auto bg-red-700 text-white font-semibold"
             >
               3
             </motion.div>
-          </motion.div>
+          </div>
         </div>
       </div>
       {/* <div className="w-full text-center ">
