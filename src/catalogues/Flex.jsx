@@ -10,7 +10,7 @@ const Flex = () => {
         <div className="my-12 h-36 bg-[#01AE6E] text-white flex flex-col justify-center items-center">
           <h3 className="text-3xl background my-2">Learn Flexbox</h3>
           <Link
-            to="/lesson/flex"
+            to="/lesson/flex/introduction"
             className="p-2 bg-[#DDC694] w-24 text-black font-medium text-xl text-center rounded-lg"
           >
             Start
